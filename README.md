@@ -1,45 +1,43 @@
 # atomvisor-microscopio-atomos
 
-AtomVisor QX-1: microscopio para átomos.
+# atomvisor-microscopio-atomos  AtomVisor QX-1: microscopio para átomos.  **Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
 
-**Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
+## Autoría
 
-## Carpetas de origen en Google Drive
+- **Autor:** Lázaro López Paz, El Prat de Llobregat, Barcelona, España
+- **ORCID:** [0000-0001-8601-1963](https://orcid.org/0000-0001-8601-1963)
+- Elaborado con asistencia de inteligencia artificial
+- Sin afiliaciones institucionales
 
-- https://drive.google.com/drive/folders/1WAs1QKJGHgkbqK2gBs0GkYPqmyjisvrI
+## Estado
 
-## Archivos incluidos
+Proyecto en desarrollo / documentación. No afirmar validación experimental salvo que el código o los informes del propio repositorio lo demuestren.
 
-- (ninguno legible como texto)
+## Contenido (raíz)
 
-## Pendiente: en Drive
+```
+LICENSE
+README.md
+REFERENCIAS.md
+requirements.txt
+stm/
+tests/
+```
 
-Archivos binarios (presentaciones, PDFs grandes, vídeos, imágenes, zips, docx) que no se pudieron pasar a texto. Siguen en Drive:
+## Instalación
 
-- 1.jpg · pendiente: en Drive · https://drive.google.com/file/d/1gHDBJvgRdlAUCIFPIUEYPb6WaET27SX1/view?usp=drivesdk
-- 2.jpg · pendiente: en Drive · https://drive.google.com/file/d/1bQ2gPoF1Y7cp9sSDlts7aJJerLIPYBJL/view?usp=drivesdk
-- 3.jpg · pendiente: en Drive · https://drive.google.com/file/d/16B4dq0u7iTEVShz4jaVVOQ2DK-jExheI/view?usp=drivesdk
-- 4.jpg · pendiente: en Drive · https://drive.google.com/file/d/1UcZRXxoRFnom_exFmw2kEFJLtn1ZgWZf/view?usp=drivesdk
-- 5.jpg · pendiente: en Drive · https://drive.google.com/file/d/1RVSqN0RRknhxoXKYEGsfHNlDmTkmffmJ/view?usp=drivesdk
-- ENG _AtomVisor_QX-1.mp4 · pendiente: en Drive · https://drive.google.com/file/d/1El5uBJkvPOFBN3Bula-lcz6KkhlC635U/view?usp=drivesdk
-- El_AtomVisor__QX_1.pdf · pendiente: en Drive · https://drive.google.com/file/d/1R5jxPIzat76Q-dsHYv0AZGsC6oxLY96V/view?usp=drivesdk
-- Español _AtomVisor_QX-1.mp4 · pendiente: en Drive · https://drive.google.com/file/d/1ENbQelm2j8-KbQjwWJvlYbLX01kfaMm_/view?usp=drivesdk
-- Visión Atómica AtomVisor QX-1.png · pendiente: en Drive · https://drive.google.com/file/d/1HXwqgKzxpQK-VsW5sB-RNJO9kIa4-Fd0/view?usp=drivesdk
-- image-1.png · pendiente: en Drive · https://drive.google.com/file/d/1X83RX9tMkXmkpX9Bp4oyiQDUOujUMR_d/view?usp=drivesdk
-- image-10.jpg · pendiente: en Drive · https://drive.google.com/file/d/1bqz-pKb1YyesqOtgBfwvFpM8k0KSChVJ/view?usp=drivesdk
-- image-15.jpg · pendiente: en Drive · https://drive.google.com/file/d/18YvUEUHe9NYQRKXRQjMDXLOTma36eZs3/view?usp=drivesdk
-- image-8.jpg · pendiente: en Drive · https://drive.google.com/file/d/1wP6h4y33B9J_XpdHYvZMNT_zzT5jPs_y/view?usp=drivesdk
-- image-9.jpg · pendiente: en Drive · https://drive.google.com/file/d/1ACqJXDfAft-wFPZ839cRQrdRbAheddc2/view?usp=drivesdk
-- image.png · pendiente: en Drive · https://drive.google.com/file/d/1eB7UJ5Di_w9R18DqaTIZUbwcDifYEDYf/view?usp=drivesdk
+```bash
+pip install -r requirements.txt
+```
 
----
-Los archivos `.trashed-*`, las copias («- copia») y los duplicados entre carpetas no se han listado.
 
-## Referencias
-Ver [REFERENCIAS.md](REFERENCIAS.md).
+## Uso
 
-## Código ejecutable (stm)
+Archivos Python principales (revisar cada uno antes de ejecutar):
+- `stm/__init__.py`
+- `tests/test_stm.py`
 
-`pip install -r requirements.txt && python -m pytest -q`
 
-Modelo de referencia público, no los datos del autor: corriente túnel ∝ exp(−2κd), aproximadamente ×10 por ångström.
+## Licencia
+
+Ver archivo `LICENSE` (o `LICENSE.md`) en la raíz. Documentación bajo CC BY 4.0 cuando aplique; código habitualmente MIT, salvo indicación contraria.
